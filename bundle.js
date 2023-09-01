@@ -7467,7 +7467,7 @@ var update = injectStylesIntoStyleTag_default()(FeatureItem_module/* default */.
 
 
 const FeatureItem = ({ title, imageSrc }) => {
-    return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: FeatureItem_FeatureItem_module.featureItem }, { children: [(0,jsx_runtime.jsx)("img", { className: FeatureItem_FeatureItem_module.featureImage, src: imageSrc }), (0,jsx_runtime.jsx)("div", { className: FeatureItem_FeatureItem_module.featureTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: FeatureItem_FeatureItem_module.featureTitle }, { children: title }))] })));
+    return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: FeatureItem_FeatureItem_module.featureItem }, { children: [(0,jsx_runtime.jsx)("img", { className: FeatureItem_FeatureItem_module.featureImage, src: imageSrc, alt: title }), (0,jsx_runtime.jsx)("div", { className: FeatureItem_FeatureItem_module.featureTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: FeatureItem_FeatureItem_module.featureTitle }, { children: title }))] })));
 };
 /* harmony default export */ const FeatureItem_FeatureItem = (FeatureItem);
 
