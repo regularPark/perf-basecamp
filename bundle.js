@@ -7406,8 +7406,8 @@ function createSearchParams(init) {
 // EXTERNAL MODULE: ./node_modules/classnames/bind.js
 var bind = __webpack_require__(7166);
 var bind_default = /*#__PURE__*/__webpack_require__.n(bind);
-;// CONCATENATED MODULE: ./src/assets/images/hero.png
-/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.png");
+;// CONCATENATED MODULE: ./src/assets/images/hero.webp
+/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.webp");
 ;// CONCATENATED MODULE: ./src/assets/images/trending.gif
 /* harmony default export */ const trending = (__webpack_require__.p + "static/trending.gif");
 ;// CONCATENATED MODULE: ./src/assets/images/find.gif
@@ -10888,7 +10888,7 @@ var App_update = injectStylesIntoStyleTag_default()(App/* default */.Z, App_opti
 
 
 const App_App = () => {
-    return ((0,jsx_runtime.jsxs)(BrowserRouter, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(Routes, { children: [(0,jsx_runtime.jsx)(Route, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(Route, { path: "/search", element: (0,jsx_runtime.jsx)(Search_Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
+    return ((0,jsx_runtime.jsxs)(BrowserRouter, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(Routes, { children: [(0,jsx_runtime.jsx)(Route, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(Route, { path: "/search", element: (0,jsx_runtime.jsx)(Search_Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] }));
 };
 /* harmony default export */ const src_App_0 = (App_App);
 
